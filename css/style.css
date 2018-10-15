@@ -1,0 +1,65 @@
+.bg-light {
+  background-color: #008080 !important;
+}
+.navbar-brand {
+  color: white !important;
+}
+.form-inline {
+  margin-right: 15px;
+}
+.form-control {
+  margin-left: 10px;
+  margin-right: 10px
+}
+.form-inline button {
+  margin-right: 10px;
+  width: 75px;
+  height: 35px;
+  background-color: #008080 !important;
+  color: white;
+}
+.form-inline button:hover {
+  background-color: white !important;
+  color: black !important;
+  cursor: pointer;
+}
+.form-inline a {
+  color: white !important;
+  font-size: 15px;
+}
+.card {
+  position: relative;
+}
+.card-img-overlay {
+  position: absolute;
+  margin-left: 450px;
+  width: 450px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* padding: 10px; */
+  background-color: white !important;
+}
+.card-form {
+  margin-left: 20px;
+  width: 350px;
+}
+.card-form label {
+  color: black;
+  margin-left: 13px;
+}
+.top-card h4 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.card-form button {
+  margin-top: -8px;
+  height: 40px;
+  width: 375px;
+  font-size: 17px;
+}
+.form-group p {
+  color: black;
+  font-size: 10px;
+  text-align: center;
+}
