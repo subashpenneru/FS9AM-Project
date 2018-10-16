@@ -1,3 +1,9 @@
+#index-bd {
+  background-image: url('../images/back-image.jpeg');
+}
+.navbar img {
+  margin-left: 25px;
+}
 .bg-light {
   background-color: #008080 !important;
 }
@@ -27,39 +33,80 @@
   color: white !important;
   font-size: 15px;
 }
-.card {
-  position: relative;
-}
-.card-img-overlay {
-  position: absolute;
-  margin-left: 450px;
-  width: 450px;
+#contain {
   margin-top: 10px;
   margin-bottom: 10px;
-  /* padding: 10px; */
-  background-color: white !important;
 }
-.card-form {
-  margin-left: 20px;
-  width: 350px;
+#form-group {
+  background-color: white !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
 }
 .card-form label {
   color: black;
   margin-left: 13px;
 }
-.top-card h4 {
+h4 {
   color: black;
   font-size: 20px;
   text-align: center;
 }
 .card-form button {
   margin-top: -8px;
+  margin-left: 10px;
   height: 40px;
-  width: 375px;
   font-size: 17px;
 }
 .form-group p {
   color: black;
   font-size: 10px;
   text-align: center;
+}
+.nav-forget {
+  margin-right: 50px;
+}
+.forget-nav-button .join-button {
+  width: 100px !important;
+  height: 35px;
+  background-color: #008080 !important;
+  color: white;
+}
+.forget-nav-button .sign-button {
+  margin-right: 2px;
+  width: 75px;
+  height: 35px;
+  background-color: #008080 !important;
+  color: white;
+}
+.join-button:hover, .sign-button:hover {
+  background-color: white !important;
+  color: black !important;
+  cursor: pointer;
+}
+#forget-contain {
+  margin-top: 50px;
+}
+#forget-contain h2, #forget-contain h5 {
+  margin-left: 10px;
+}
+#forget-contain form {
+  margin-top: 20px;
+}
+#forget-contain label {
+  margin-left: 10px;
+  margin-bottom: -8px;
+  font-size: 15px;
+}
+#forget-contain label::after {
+  content: '*';
+  color: blue !important;
+  margin-left: 1px;
+}
+#forget-contain .btn-group {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+#forget-contain button {
+  margin-right: 25px;
 }
