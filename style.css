@@ -1,0 +1,170 @@
+
+.navbar{
+    padding: 1em 2em;
+}
+
+.mb-2, .my-2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem !important;
+}
+.form-control{
+    background-color: rgb(95, 95, 95);
+    border-radius: 0;
+    border: 0;
+    color: white;
+}
+
+.form-control:focus{
+    background-color: rgb(40, 40, 40);
+    border-radius: 0;
+    border: 0;
+    color: white;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 0 0 0;
+}
+.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-primary{
+    background-color: rgb(211, 72, 95);
+    color: white;
+    border: 0;
+    padding: 0.5em 1.5em;
+    border-radius: 0;
+}
+
+.btn-primary:hover{
+    background-color: rgb(146, 36, 54);
+}
+#forget1{
+    color: grey;
+}
+#forget1:hover{
+    color: white;
+}
+
+.input-group-text {
+    background-color: gray;
+    border: 0;
+}
+
+/* registration divsion */
+.reg-home{
+    /* float: left; */
+    margin: auto;
+    width: 95%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.head-div-reg h3, .head-div-reg p{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.head-div-reg{
+    background-color: rgb(146, 36, 54);
+    padding: 0.5em 0em;
+
+}
+.form-div{
+    padding: 1em 1em;
+}
+
+.form-div .form-control{
+    background-color: rgb(200, 200, 200);
+    border-radius: 0;
+    border: 0;
+    color: black;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 0 0 0;
+}
+.form-div .form-control:focus{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    border: 0;
+    color: black;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.form-div .input-group-text {
+    background-color: black;
+    border: 0;
+}
+
+.form-div .form-group, .form-div #emailHelp{
+    margin-bottom: 0.6em;
+}
+
+.form-div #emailHelp{
+    text-align: center;
+    color: white;
+}
+
+.form-div #exampleInputBtn1{
+    background-color: rgb(211, 72, 95);
+    color: white;
+    border: 0;
+    padding: 0.5em 1.5em;
+    border-radius: 0;
+}
+
+.form-div #exampleInputBtn1:hover{
+    background-color: rgb(146, 36, 54); 
+    color: white;
+    border: 0;
+    padding: 0.5em 1.5em;
+    border-radius: 0;   
+    box-shadow: 0 0 0 0;
+}
+
+.home-footer{
+    background-color: rgb(20, 20, 20);
+    height: 5em;
+}
+
+
+/* media queries start here */
+
+ @media (max-width: 576px) { 
+    .reg-home{
+        margin: auto;
+        height: auto;
+        width: 95%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }    
+ }
+
+ @media (min-width: 576px) { 
+    .reg-home{
+        margin: auto;
+        width: 75%;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }    
+ }
+
+ @media (min-width: 998px), (min-width: 760px) { 
+    .reg-home{
+        margin: auto;
+        width: 45%;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }    
+ }
+
+ @media (min-width: 1024px) { 
+    .reg-home{
+        margin: auto;
+        width: 35%;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }    
+ }
+
+/* media queries end here */
